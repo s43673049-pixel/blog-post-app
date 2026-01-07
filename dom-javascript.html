@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Manipulation Explained Simply</title>
+  <link rel="stylesheet" href="content.css" />
+  <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  <h1>What is DOM?</h1>
+  <p>
+    DOM stands for Document Object Model. It represents your HTML as a tree that JavaScript can interact with.
+  </p>
+
+  <h2>Selecting Elements</h2>
+  <pre><code class="language-js">
+    document.getElementById("title");
+    document.querySelector(".card");
+  </code></pre>
+
+  <h2>Changing Content</h2>
+  <pre><code class="language-js">
+    const heading = document.getElementById("title");
+    heading.textContent = "Hello JavaScript!";
+  </code></pre>
+
+  <h2>Handling Click Events</h2>
+  <pre><code >
+    <button id="btn">Click Me</button>
+  </code></pre>
+  <pre><code class="language-js">
+    document.getElementById("btn").addEventListener("click", () => {
+      alert("Button clicked!");
+  });
+  </code></pre>
+
+  <h2>Why DOM is Important</h2>
+  <ul>
+    <li>Makes websites interactive</li>
+    <li>Allows dynamic updates</li>
+    <li>Used in all JS frameworks</li>
+  </ul>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markup.min.js"></script>
+
+</body>
+</html>

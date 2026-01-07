@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox Explained with Real Examples</title>
+  <link rel="stylesheet" href="content.css" />
+  <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  <h1>Introduction</h1>
+  <p>Flexbox is a modern CSS layout system that helps you align elements easily in rows or columns.</p>
+
+<p>Before Flexbox, layouts were difficult and messy. Flexbox makes responsive design simple and clean.</p>
+
+<h2>Flexbox Container</h2>
+<p>To use Flexbox, apply <strong>display: flex</strong> to a parent element:</p>
+
+<pre><code class="language-css">
+  .container {
+  display: flex;
+}
+</code></pre>
+
+<p>Example Layout</p>
+<pre><code class="language-html">
+  &lt;div class="container"&gt;
+  &lt;div class="box">1&lt;/div&gt;
+  &lt;div class="box">2&lt;/div&gt;
+  &lt;div class="box">3&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code class="language-css">
+  .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #4f46e5;
+  color: white;
+}
+</code></pre>
+
+<h2>Important Flexbox Properties</h2>
+<p>justify-content (horizontal)</p>
+<ul>
+  <li>flex-start (default)</li>
+  <li>flex-end</li>
+  <li>center</li>
+  <li>space-between</li>
+  <li>space-around</li>
+</ul>
+<p>align-items (vertical)</p>
+<ul>
+  <li>stretch (default)</li>
+  <li>flex-start</li>
+  <li>flex-end</li>
+  <li>center</li>
+  <li>baseline</li>
+</ul>
+
+<h2>Why Use Flexbox?</h2>
+<ul>
+  <li>Easy alignment</li>
+  <li>Responsive design</li>
+  <li>Clean code</li>
+  <li>Supported by all modern browsers</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>Flexbox should be learned before CSS Grid. It’s perfect for navigation bars, cards, and layouts.</p>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markup.min.js"></script>
+
+</body>
+</html>
