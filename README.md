@@ -20,3 +20,15 @@ This project focuses on creating a clean, readable blog interface with structure
 <h2>Live Demo</h2>
 <p>🔗Live Website: https://s43673049-pixel.github.io/blog-post-app
 </p>
+
+<h2>📸Preview</h2>
+<p> A simple and elegant blog layout designed for readability and content focus.</p>
+
+<h2>🎯Purpose of this project </h2>
+<p> This project was created to:</p>
+<ul>
+  <li> Practice layout design and responsiveness </li>
+  <li> Improve HTML semantic structure</li>
+  <li>Build a real-world blog UI</li>
+  <li> Strengthen front-end development skills</li>
+</ul>
