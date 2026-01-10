@@ -44,7 +44,7 @@ This project focuses on creating a clean, readable blog interface with structure
 <h2>📬Contact</h2>
 <p>👤 Sneha</p>
 <p>🔗 Github: https://github.com/s43673049-pixel </p>
-<p>🔗Portfolio: https://github.com/s43673049-pixel/portfolio.com</p>
+<p>🔗Portfolio: https://portfolio.com</p>
 
 
 
