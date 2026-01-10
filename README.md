@@ -32,3 +32,14 @@ This project focuses on creating a clean, readable blog interface with structure
   <li>Build a real-world blog UI</li>
   <li> Strengthen front-end development skills</li>
 </ul>
+
+<h2>🧠What I Learned</h2>
+<ul>
+  <li>Creating reusable layout components</li>
+  <li>Improving UI readability with spacing & typography</li>
+  <li>Responsive design using media queries</li>
+  <li>Organizing project files professionally</li>
+</ul>
+
+
+
